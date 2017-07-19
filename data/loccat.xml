@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<loccats>
+  <indicators>
+    <indicator active="1">cities</indicator>
+    <indicator active="1">towns</indicator>
+    <indicator active="1">prefectures</indicator>
+    <indicator active="1">communes</indicator>
+    <indicator active="1">provinces</indicator>
+    <indicator active="1">countries</indicator>
+    <indicator active="1">territories</indicator>
+    <indicator active="1">republics</indicator>
+    <indicator active="1">member states</indicator>
+    <indicator active="1">populated places</indicator>
+    <indicator active="1">capitals</indicator>
+    <indicator active="1">census regions</indicator>
+    <indicator active="1">regions of</indicator>
+    <indicator active="1">regions in</indicator>
+    <indicator active="1">counties</indicator>
+  </indicators>
+  <generics />
+</loccats>

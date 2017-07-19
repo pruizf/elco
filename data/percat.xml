@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<percats>
+  <indicators>
+   <!-- http://www.cnts.ua.ac.be/conll2003/ner/annotation.txt -->
+    <indicator active="1">births</indicator>
+    <indicator active="1">people</indicator>
+    <!-- the skip attr is unused, the idea was to deactivate
+         some indicators according to the annotator to use -->
+    <indicator active="1" skip="tagme">person</indicator>
+  </indicators>
+  <antis>
+    <anti active="1">personal</anti>
+    <anti active="1">people's party</anti>
+    <anti active="1">people's republic</anti>
+    <anti active="0">Question_(comics)</anti>
+  </antis>
+  <generics>
+    <generic active="1">Financial_adviser</generic>
+    <generic active="1">Asian_people</generic>
+    <generic active="1">Person</generic>
+    <generic active="1">Veteran</generic>
+    <generic active="1">Nation</generic>
+    <generic active="1">Nationality</generic>
+    <generic active="1">Businessperson</generic>
+  </generics>
+</percats>

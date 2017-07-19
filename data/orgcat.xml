@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<orgcats>
+  <indicators>
+   <!-- http://www.cnts.ua.ac.be/conll2003/ner/annotation.txt -->
+    <indicator active="1">companies</indicator>
+    <indicator active="1">organisations</indicator>
+    <indicator active="1">organizations</indicator>
+    <indicator active="1">agencies</indicator>
+    <indicator active="0">studios</indicator>
+    <indicator active="1">banks</indicator>
+    <indicator active="1">markets</indicator>
+    <indicator active="1">manufacturers</indicator>
+    <indicator active="1">cooperatives</indicator>
+    <indicator active="1">political parties</indicator>
+    <indicator active="1">ministries</indicator>
+    <indicator active="1">councils</indicator>
+    <indicator active="1">committees</indicator>
+    <indicator active="1">courts</indicator>
+    <indicator active="1">political unions</indicator>
+    <indicator active="1">publications</indicator>
+    <indicator active="1">magazines</indicator>
+    <indicator active="1">newspapers</indicator>
+    <indicator active="1">journals</indicator>
+    <indicator active="0">sports clubs</indicator>
+    <indicator active="0">sports teams</indicator>
+    <indicator active="1">associations</indicator>
+    <indicator active="1">theater companies</indicator>
+    <indicator active="1">religious orders</indicator>
+  </indicators>
+  <generics>
+    <generic active="1">Asset_Acceptance</generic>
+    <generic active="1">Bank_holding_company</generic>
+    <generic active="1">Bid_price</generic>
+    <generic active="1">Brand</generic>
+    <generic active="1">Broker-dealer</generic>
+    <generic active="1">Capital_market</generic>
+    <generic active="1">Charitable_organization</generic>
+    <generic active="1">Code_of_Federal_Regulations</generic>
+    <generic active="1">Commerzbank</generic>
+    <generic active="1">Committee</generic>
+    <generic active="1">Company</generic>
+    <generic active="1">Cooperative</generic>
+    <generic active="1">Corporation</generic>
+    <generic active="1">Court</generic>
+    <generic active="1">Credit_rating_agency</generic>
+    <generic active="1">Credit_union</generic>
+    <generic active="1">Derivatives_market</generic>
+    <generic active="1">Financial_instrument</generic>
+    <generic active="1">Financial_market</generic>
+    <generic active="1">Financial_services</generic>
+    <generic active="1">Free_Voters</generic>
+    <generic active="1">Government_agency</generic>
+    <generic active="1">Headquarters</generic>
+    <generic active="1">Hedge_fund</generic>
+    <generic active="1">Holding_company</generic>
+    <generic active="1">Issuer</generic>
+    <generic active="1">Long_(finance)</generic>
+    <generic active="1">Margin_(finance)</generic>
+    <generic active="1">Market</generic>
+    <generic active="1">Market_liquidity</generic>
+    <generic active="1">Market_maker</generic>
+    <generic active="1">Market_manipulation</generic>
+    <generic active="1">Marketplace</generic>
+    <generic active="1">Market_price</generic>
+    <generic active="1">Market_trend</generic>
+    <generic active="1">Market_value</generic>
+    <generic active="1">Mark-to-market_accounting</generic>
+    <generic active="1">Minor_league_baseball</generic>
+    <generic active="1">Money_market</generic>
+    <generic active="1">National_bank</generic>
+    <generic active="1">Non-governmental_organization</generic>
+    <generic active="1">Nonprofit_organization</generic>
+    <generic active="1">Organization</generic>
+    <generic active="1">Portfolio_(finance)</generic>
+    <generic active="1">Position_(finance)</generic>
+    <generic active="1">Privately_held_company</generic>
+    <generic active="1">Proprietary_trading</generic>
+    <generic active="1">Public_company</generic>
+    <generic active="1">Savings_and_loan_association</generic>
+    <generic active="1">Secondary_market</generic>
+    <generic active="1">Short_(finance)</generic>
+    <generic active="1">Systemic_risk</generic>
+    <generic active="1">The_Big_Short</generic>
+    <generic active="1">Trader_(finance)</generic>
+    <generic active="1">Trading_room</generic>
+    <generic active="1">Valuation_(finance)</generic>
+    <generic active="1">Value_investing</generic>
+    <!-- Spotlight (noise introduced w Freebase categs
+         in the end just didn't use them -->
+    <generic active="0">Risk_management</generic>
+    <generic active="0">Partnership</generic>
+    <generic active="0">Shareholder</generic>
+    <generic active="0">University</generic>
+    <generic active="0">Fashion</generic>
+    <!-- not really a generic but ok to leave here for now,
+         in fact looks like i already copied them to entdico.xml
+         (read when running main_coo, after the annotator mains' results)
+         #TODO: these are labels for DELETES not generic -->
+    <generic active="0">Society_for_American_Baseball_Research</generic>
+    <generic active="0">Stuff_(magazine)</generic>
+    <generic active="0">Sponsor_(commercial)</generic>
+    <generic active="0">Ms._(magazine)</generic>
+    <generic active="0">Time_(magazine)</generic>
+    <generic active="0">People_(magazine)</generic>
+    <generic active="0">Failure_(band)</generic>
+    <generic active="0">The_Fall_(band)</generic>
+    <generic active="0">Nature_(journal)</generic>
+    <generic active="0">Clear_Channel_Communications</generic>
+    <generic active="0">Union_Pacific_Railroad</generic>
+    <generic active="0">Next_(clothing)</generic>
+    <generic active="0">Details_(magazine)</generic>
+    <generic active="0">Capitol_Records</generic>
+  </generics>
+</orgcats>
